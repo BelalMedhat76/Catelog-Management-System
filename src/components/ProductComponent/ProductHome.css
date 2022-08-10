@@ -1,0 +1,105 @@
+
+
+
+.SearchBar2{
+    border-radius: 20px;
+        padding: 20px;
+    margin: 0 20px 0 20px;
+       width: 500px;
+        background-color: #E4F2E7;
+        height: fit-content;
+        }
+    .searchLine2{
+        display: flex;
+        justify-content:baseline;
+        justify-items: center;
+        flex-direction: row;
+
+        
+    }    
+    .searchLine2 >ul{
+        list-style-type: none;
+    }
+    .Prduct-container{
+        display: flex;
+        align-items: stretch;    
+        padding: 30px;
+    }
+    .Product-Right-side{
+        display: flex;
+      
+        flex: 80%;
+        flex-direction: column;
+    }
+    .Product_Left_Nav{
+        display: flex;
+        flex: 20%;
+    }
+    /* .product_details{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 30px;
+        background-color: burlywood;
+        height: 500px;
+    } */
+    .Products-Btn{
+       margin: 20px 0 50px 30px;
+        width: 35rem;
+        height: 3rem;
+        background-color: #154666;
+       border: 1px solid  #154666;
+       border-radius: 10px;
+    }
+    .Products-Btn > a{
+        color: #ffffff;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+       
+        
+    }
+    .Product_Nav{
+        margin-left: 30px;
+        display: flex;
+        width: 500px;
+        flex-direction: row;
+        justify-content: space-between;
+    align-items: center;
+    }
+    .Product_Nav  .product_link{
+        text-decoration: none;
+        color: Black;
+        background-color: #ffffff;
+        padding: 10px;
+        width: fit-content;
+        border-radius: 10px;
+      
+    }
+    .Product_Nav .active{
+        text-decoration: none;
+        color: Black;
+        background-color: #154666;
+        padding: 10px;
+        width: fit-content;
+        border-radius: 10px;
+      
+    }
+    .product_link:active{
+        background-color: #154666;
+        padding: 10px;
+        width: fit-content;
+        border-radius: 10px;
+      
+    }
+
+    .link_shadow{
+        text-decoration: none;
+        color: Black;
+        background-color: #ffffff;
+        padding: 10px 18px 10px 18px;
+        width: fit-content;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }

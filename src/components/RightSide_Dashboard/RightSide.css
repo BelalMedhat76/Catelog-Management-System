@@ -1,0 +1,144 @@
+.AddProducts_btn{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #103778;  
+    margin-top: 20px;
+    border: 1px solid  #103778;
+    border-radius: 6px;
+    }
+    .RightSideCardinfo{
+      
+        display: flex;
+        justify-content:center;
+        align-items: stretch;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+       
+    }
+  
+.RightSidecard1
+{  
+   border: 1px solid #fff;
+   border-radius: 10px;
+ margin-top: 20px;
+  background-color: #fff;
+  flex-grow: 1;
+height: 100px;
+padding: 5px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  
+  display: flex;
+justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+.Rightcard-line1{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+flex-wrap: nowrap;
+    flex-direction: column;
+line-height: .5;
+
+ 
+}
+.Rightcard-line2-frame{
+
+    color: black;
+  background-color:#B4BEC9;
+ text-align: center;
+  border-radius: 10px;
+  padding: 2px 7px 2px 7px;
+
+}
+.RightOrderList{
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+    margin-top: 20px;
+  text-align: left;
+line-height: 1.7;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#Product_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+.latestProduct_img{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
+
+}
+.latestProduct{
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.RightProgressBar{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.stars{
+    padding: 5px;
+    background-color: #B4BEC9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+.progress_bar-Data{
+margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: baseline;
+}
+.progresbar_container{
+ 
+
+    border-radius: 20px;
+    width: 100%;
+    margin:0 4px 0 4px 
+}
+.bar1{
+    width: 80%;
+    background-color: #103778;
+    height: 5px;
+    border-radius: 20px;
+}
+.bar2{
+    width: 70%;
+    background-color: #103778;
+    height: 5px;
+    border-radius: 20px;
+}
+.bar3{
+    width: 50%;
+    background-color: #103778;
+    height: 5px;
+    border-radius: 20px;
+}
+.bar4{
+    width: 30%;
+    background-color: #103778;
+    height: 5px;
+    border-radius: 20px;
+}
+.bar5{
+    width: 15%;
+    background-color: #103778;
+    height: 5px;
+    border-radius: 20px;
+}

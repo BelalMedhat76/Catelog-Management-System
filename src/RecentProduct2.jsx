@@ -1,0 +1,33 @@
+const RecentProduct2 = [
+  {
+    id: 1,
+    name: "Orderd ID",
+    client: "CUSTOMER",
+    date: "Order Date",
+    cost: "Amount",
+    method: "Payment Method",
+    state: "Order State",
+    customerId: "#AB10",
+    customerName: "Ahmed Rady",
+    orderdate: "5May.2022",
+    money: "$1000",
+    paymethod: "Visa",
+    orderstate: "Delivered",
+  },
+  {
+    id: 2,
+    name: "Orderd ID",
+    client: "CUSTOMER",
+    date: "Order Date",
+    cost: "Amount",
+    method: "Payment Method",
+    state: "Order State",
+    customerId: "#AB10",
+    customerName: "Ahmed Rady",
+    orderdate: "5May.2022",
+    money: "$1000",
+    paymethod: "Visa",
+    orderstate: "Delivered",
+  },
+];
+export default RecentProduct2;

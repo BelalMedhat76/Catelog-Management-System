@@ -1,0 +1,61 @@
+.reacent_data{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+margin: 20px;
+flex-wrap: nowrap;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.recentRow{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-direction: row;
+    width: 100%;
+
+    line-height: 0;
+    
+
+}
+.recentRow1{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-direction: row;
+    width: 100%;
+align-items: center;
+    line-height: 0;
+    
+
+}
+.recentRow1 >p{
+    font-size: 13px;
+}
+.Product_section{
+    padding: 40px 0 40px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.product_btn{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: row;
+    position: relative;
+    right: 30px;
+
+}
+.AllProduct_Btn{
+    padding: 12px;
+    background-color: #103778;
+    color: white;
+    border: 1px solid #103778;
+    border-radius: 10px;
+}
+.AllProduct_Btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

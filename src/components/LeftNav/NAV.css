@@ -1,0 +1,42 @@
+.sideNavbar{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #154666;
+gap: 2rem;
+  flex-wrap:nowrap;
+border: 1px solid #154666;
+border-radius: 10px;
+
+height:1600px;
+flex: 20%;
+width: 20%;
+    
+}
+.sideNavbar h1{
+    padding-left: 10px;
+      font-size: 30px;
+      font-weight: 700;
+      color: #ffffff;
+   }
+   
+   
+   .sideNavbar  a{
+    display: flex;
+
+       text-decoration: none;
+     
+   margin-left: 10px;
+       color: #ffffff;
+       font-weight: 500;
+       font-size: 20px;
+   
+   }
+   .icon{
+       color: #ffffff;
+   margin-right: 10px;
+   float: left;
+     
+   }
+   
+   

@@ -1,0 +1,14 @@
+
+.center-dashboardContet{
+    flex: 60%;
+   flex-wrap: wrap;
+}
+.right-dashboardContet{
+    flex: 20%;
+    padding: 10px;
+}
+.flex-container{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}

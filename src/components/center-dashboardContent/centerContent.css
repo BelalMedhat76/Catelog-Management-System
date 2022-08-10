@@ -1,0 +1,167 @@
+/* .center-dashboardContet{
+    flex-grow:8;
+   
+} */
+/* .right-dashboardContet{
+    flex-grow: 1;
+
+
+text-align: center;
+ 
+
+} */
+.SearchBar{
+border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: #E4F2E7;
+    }
+.searchLine{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    flex-direction: row;
+    
+}    
+
+.whoIam{
+margin-top: 20px;
+line-height: 1;
+
+}
+.whoIam p{
+    font-size: 15px;
+}
+.dashboardCards{
+    display: flex;
+    justify-content:center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.card1
+{
+    width: 10%;
+    background-color: #fff;
+    flex-grow: 1;
+height: 100px;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    font-size: 15px;
+    display: flex;
+justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.card1-line1{
+    display: flex;
+    justify-content: space-between;
+flex-wrap: nowrap;
+    flex-direction: column;
+ 
+}
+
+.card1-line2{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card2
+{  width: 10%;
+ margin: 0 5px 0 5px;
+  background-color: #fff;
+  flex-grow: 1;
+height: 100px;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  
+  display: flex;
+justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+.card2-line1{
+    display: flex;
+    justify-content: space-between;
+flex-wrap: nowrap;
+    flex-direction: column;
+line-height: .5;
+
+ 
+}
+.card-line2-frame{
+
+    color: black;
+  background-color: #2b8988;
+ text-align: center;
+  border-radius: 10px;
+  padding: 2px 7px 2px 7px;
+
+}
+a{
+    text-decoration: none;
+}
+.card3
+{  width: 10%;
+    background-color: #fff;
+    flex-grow: 1;
+  height: 100px;
+  padding: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+    display: flex;
+  justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.card3-line1{
+    display: flex;
+    justify-content: space-between;
+flex-wrap: nowrap;
+    flex-direction: column;
+line-height: .5;
+
+ 
+}
+.dashboard_Chart_Part{
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: row;
+
+}
+.dashboard-calender{
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+}
+.dashboard_cards_details{
+    display: flex;
+    align-items: stretch;
+}
+.dashboard_cards_details > div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+ flex-grow: 1;
+    margin: 10px;
+    text-align: center;
+  width: 30%;
+  background-color: #E4F2E7;
+}
+.dashboard_Chart{
+    width: 100%;
+   
+    
+}
+.chartSection{
+    padding: 20px 0 20px 0; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
