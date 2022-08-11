@@ -6,53 +6,54 @@ import { FaRegHandshake } from "react-icons/fa";
 import { FiSettings } from "react-icons/fi";
 import { RiDashboardLine } from "react-icons/ri";
 import { TiGroup } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="sideNavbar " style={{ padding: "10px" }}>
       <h1> Store Setting</h1>
-      <a href="/">
+      <Link to="/">
         <span>
           {" "}
           <RiDashboardLine className="icon" />
           Dashboard
         </span>{" "}
-      </a>
-      <a href="/">
+      </Link>
+      <Link to="/products">
         <span>
           {" "}
           <AiFillMacCommand className="icon" /> Products
         </span>
-      </a>
-      <a href="/">
+      </Link>
+      <Link to="/orders">
         {" "}
         <span>
           {" "}
           <AiFillCheckSquare className="icon" />
           Orders
         </span>
-      </a>
-      <a href="/">
+      </Link>
+      <Link to="/review">
         {" "}
         <span>
           <TiGroup className="icon" /> Customer Reviews
         </span>
-      </a>
-      <a href="/">
+      </Link>
+      <Link to="/message">
         <span>
           <BiMessageRoundedDots className="icon" /> Messages
         </span>{" "}
-      </a>
-      <a href="/">
+      </Link>
+      <Link to="/deals">
         <span>
           <FaRegHandshake className="icon" /> Deals
         </span>{" "}
-      </a>
-      <a href="/">
+      </Link>
+      <Link to="/setting">
         <span>
           <FiSettings className="icon" /> Settings
         </span>{" "}
-      </a>
+      </Link>
     </div>
   );
 };

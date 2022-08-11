@@ -17,7 +17,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="flex-container">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="center-dashboardContet" style={{ padding: "10px" }}>
           <CenterDashboard />
         </div>

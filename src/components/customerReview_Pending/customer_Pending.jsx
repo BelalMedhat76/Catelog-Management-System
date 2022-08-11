@@ -2,14 +2,13 @@ import React from "react";
 import "./ProductHome.css";
 import MyProduct from "../../MyProduct_data";
 import Navbar from "../LeftNav/NAV";
-import TopHead from "./topHeader";
+import TopHead from "../ProductComponent/topHeader";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Product from "../dashboard-RecentProduct/RecentProduct";
 import RecentProduct from "../../data";
 import profilePic from "../../assets/profilePic.jpg";
 import { BiDotsHorizontal } from "react-icons/bi";
-import AllProducts from "./AllProduct";
-import AllClientProduct from "./AllProduct";
+
 const ProductPage = () => {
   return (
     <div className="Prduct-container">
@@ -50,7 +49,7 @@ const ProductPage = () => {
 
           {/* <Product details={RecentProduct} /> */}
         </div>
-        <AllClientProduct details={MyProduct} />
+        {/* <AllClientProduct details={MyProduct} /> */}
       </div>
     </div>
   );

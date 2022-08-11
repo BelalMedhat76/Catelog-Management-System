@@ -1,9 +1,8 @@
 import React from "react";
-
+import Profile from "../ProfileMenu/profile";
 import { Component } from "react";
 import { FiSearch } from "react-icons/fi";
 import { RiAlarmWarningLine } from "react-icons/ri";
-import Profile from "../ProfileMenu/profile";
 
 class TopHead extends Component {
   state = {};
