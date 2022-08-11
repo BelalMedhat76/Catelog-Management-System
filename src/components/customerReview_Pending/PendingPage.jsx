@@ -1,49 +1,66 @@
 import React from "react";
 import { BiDotsHorizontal } from "react-icons/bi";
+import "./customer_Pending.css";
 import profilePic from "../../assets/profilePic.jpg";
+import { Link } from "react-router-dom";
 const Pending = (props) => {
   return (
-    <div className="PendingTable">
-      <table border={1}>
-        <tbody>
-          <tr>
-            <td>Product Category</td>
-            <td>Reviewer</td>
-            <td>Review</td>
-            <td>Status</td>
-            <td rowSpan={2}>
-              <BiDotsHorizontal size={"40px"} />
-            </td>
-          </tr>
-          <tr>
-            <td>
+    <>
+      {props.details.map((value, index) => (
+        <div className="cutomerTableWidht" key={index}>
+          <table className="PendingTable">
+            <tbody>
               <tr>
+                <td>{value.name}</td>
+                <td>{value.reviewername}</td>
+                <td>{value.rate}</td>
+                <td>{value.actions}</td>
                 <td rowSpan={2}>
-                  {" "}
-                  <img src={profilePic} className="productPic" alt="" />
+                  <BiDotsHorizontal size={"40px"} />
                 </td>
-                <td>Product Name</td>
               </tr>
               <tr>
-                <td>equipment</td>
-              </tr>
-            </td>
-            <td>
-              {" "}
-              <tr>
-                <td rowSpan={2}>
-                  {" "}
-                  <img src={profilePic} className="productPic" alt="" />
+                <td>
+                  <tr>
+                    <td rowSpan={2}>
+                      {" "}
+                      <img src={profilePic} className="productPic" alt="" />
+                    </td>
+                    <td>
+                      <p>{value.nameofProduct}</p>
+
+                      <p>{value.state}</p>
+                    </td>
+                  </tr>
                 </td>
-                <td>Product Name</td>
+                <td>
+                  {" "}
+                  <tr>
+                    <td rowSpan={2}>
+                      {" "}
+                      <img src={profilePic} className="productPic" alt="" />
+                    </td>
+                    <td>
+                      <p>{value.reviewerName}</p>
+                      <p>{value.location}</p>
+                    </td>
+                  </tr>
+                </td>
+                <td style={{ width: "300px" }}>
+                  <p>{value.dateOfReview}</p>
+                  <p>{value.description}</p>
+                </td>
+                <td>
+                  <button className="PendingBtn">
+                    <a href="#"> Pending</a>
+                  </button>
+                </td>
               </tr>
-            </td>
-            <td>5.may.2022</td>
-            <td>pending</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+            </tbody>
+          </table>
+        </div>
+      ))}
+    </>
   );
 };
 export default Pending;

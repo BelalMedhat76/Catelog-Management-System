@@ -1,43 +1,46 @@
 import React from "react";
-import "./ProductHome.css";
-import MyProduct from "../../MyProduct_data";
-import Navbar from "../LeftNav/NAV";
+import "./customer_Pending";
+import PendingData from "../../Pending_data";
+import Pending from "../customerReview_Pending/PendingPage";
+
 import TopHead from "../ProductComponent/topHeader";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import Product from "../dashboard-RecentProduct/RecentProduct";
-import RecentProduct from "../../data";
-import profilePic from "../../assets/profilePic.jpg";
-import { BiDotsHorizontal } from "react-icons/bi";
+import { Link } from "react-router-dom";
+import TopPindingHead from "./TopHeadofPendingPage";
 
-const ProductPage = () => {
+const CustomerReviewPage = () => {
   return (
     <div className="Prduct-container">
       <div className="Product_Left_Nav">{/* <Navbar /> */}</div>
-      <div className="Product-Right-side">
-        <TopHead />
+      <div className="customer-Right-side">
+        <TopPindingHead />
 
-        <button className="Products-Btn">
-          <a href="#">Add Product</a>
-        </button>
+        <h3 style={{ marginLeft: "30px" }}>Client Reviews</h3>
 
         <div className="Product_Nav">
-          <span className="active ">
-            <a
-              href="#"
-              className="product_link"
-              style={{ backgroundColor: "#154666" }}
-            >
+          <span>
+            <Link to="/productsback" className="product_link">
               All
-            </a>
+            </Link>
           </span>
           <span>
-            <a href="#" className="product_link">
+            <a
+              href="#"
+              className="product_link active"
+              style={{ color: "#ffffff" }}
+            >
               Pending
             </a>
           </span>
           <span>
             <a href="#" className="product_link">
               Published
+            </a>
+          </span>
+          <span className="link_shadow ">
+            <a href="#">
+              Sort By{" "}
+              <AiOutlineArrowLeft size={"20px"} style={{ marginLeft: "5px" }} />
             </a>
           </span>
           <span className="link_shadow ">
@@ -49,9 +52,9 @@ const ProductPage = () => {
 
           {/* <Product details={RecentProduct} /> */}
         </div>
-        {/* <AllClientProduct details={MyProduct} /> */}
+        <Pending details={PendingData} />
       </div>
     </div>
   );
 };
-export default ProductPage;
+export default CustomerReviewPage;

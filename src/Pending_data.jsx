@@ -1,0 +1,73 @@
+const PendingData = [
+  {
+    id: "1",
+    name: "Product Category",
+    reviewername: "Reviewer",
+    rate: "Review",
+    actions: "Status",
+    nameofProduct: "ProductName",
+    state: "equipment",
+    reviewerName: "Johnny Deep",
+    location: "Egypt, Cairo",
+    dateOfReview: "5.May.2022 11:30Am ",
+    description:
+      "the product is more than wonderful and i would like to recommend it to every one who wants to benefit from it",
+  },
+  {
+    id: "2",
+    name: "Product Category",
+    reviewername: "Reviewer",
+    rate: "Review",
+    actions: "Status",
+    nameofProduct: "ProductName",
+    state: "equipment",
+    reviewerName: "Johnny Deep",
+    location: "Egypt, Cairo",
+    dateOfReview: "5.May.2022 11:30Am ",
+    description:
+      "the product is more than wonderful and i would like to recommend it to every one who wants to benefit from it",
+  },
+  {
+    id: "3",
+    name: "Product Category",
+    reviewername: "Reviewer",
+    rate: "Review",
+    actions: "Status",
+    nameofProduct: "ProductName",
+    state: "equipment",
+    reviewerName: "Johnny Deep",
+    location: "Egypt, Cairo",
+    dateOfReview: "5.May.2022 11:30Am ",
+    description:
+      "the product is more than wonderful and i would like to recommend it to every one who wants to benefit from it",
+  },
+  {
+    id: "4",
+    name: "Product Category",
+    reviewername: "Reviewer",
+    rate: "Review",
+    actions: "Status",
+    nameofProduct: "ProductName",
+    state: "equipment",
+    reviewerName: "Johnny Deep",
+    location: "Egypt, Cairo",
+    dateOfReview: "5.May.2022 11:30Am ",
+    description:
+      "the product is more than wonderful and i would like to recommend it to every one who wants to benefit from it",
+  },
+  {
+    id: "5",
+    name: "Product Category",
+    reviewername: "Reviewer",
+    rate: "Review",
+    actions: "Status",
+    nameofProduct: "ProductName",
+    state: "equipment",
+    reviewerName: "Johnny Deep",
+    location: "Egypt, Cairo",
+    dateOfReview: "5.May.2022 11:30Am ",
+    description:
+      "the product is more than wonderful and i would like to recommend it to every one who wants to benefit from it",
+  },
+];
+export default PendingData;
