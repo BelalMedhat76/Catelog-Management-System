@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Dashboard from "./components/dashboardHome/dashHome.jsx";
 import ProductPage from "./components/ProductComponent/ProductHome.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -9,17 +10,13 @@ import Pending from "./components/customerReview_Pending/PendingPage";
 import GeneralProduct from "./components/AddProducts/General_Info";
 import SpecificInfo from "./components/AddProducts/Specific_Info";
 import ProductOrders from "./components/Orders/Orders.jsx";
+import ProductFilter from "./components/ProductFilter/Filter";
 
 function App() {
   return (
     <div className="App">
-      {/* <CustomerReviewPage /> */}
-      {/* <GeneralProduct /> */}
-      {/* <SpecificInfo /> */}
       <BrowserRouter>
         <Navbar />
-
-        {/* <Dashboard /> */}
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/products" element={<ProductPage />} />
@@ -29,6 +26,7 @@ function App() {
           <Route path="/add" element={<GeneralProduct />} />
           <Route path="/specific" element={<SpecificInfo />} />
           <Route path="/orders" element={<ProductOrders />} />
+          <Route path="/filter" element={<ProductFilter />} />
         </Routes>
       </BrowserRouter>
     </div>

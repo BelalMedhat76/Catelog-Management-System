@@ -14,6 +14,9 @@ const ProductPage = () => {
   const navigateToReviewProduct = () => {
     navigate("/review");
   };
+  const navigateToFilter = () => {
+    navigate("/filter");
+  };
   return (
     <div className="Prduct-container">
       <div className="Product_Left_Nav"></div>
@@ -49,7 +52,7 @@ const ProductPage = () => {
             </a>
           </span>
           <span className="link_shadow ">
-            <a href="#">
+            <a href="#" onClick={navigateToFilter}>
               Filters{" "}
               <AiOutlineArrowLeft size={"20px"} style={{ marginLeft: "5px" }} />
             </a>

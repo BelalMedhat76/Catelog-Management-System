@@ -300,13 +300,14 @@ a .uil {
   position: absolute;
   top:10px;
   right: 0;
+  padding: 20px;
 }
 .specificProduct_content{
   display: flex;
   flex-wrap: nowrap;
   width: 80%;
   position: relative;
-
+  padding: 20px;
   flex-direction: column;
   position: absolute;
   top:10px;
@@ -486,6 +487,7 @@ width: 100%;
   rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .product_category{
+  border-radius: 10px;
   width: 100%;
   height: 200px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
@@ -511,6 +513,7 @@ width: 100%;
   border-radius: 10px;
 }
 .product_Tags{
+  border-radius: 10px;
   width: 100%;
   margin-top: 20px;
   height: 200px;
@@ -552,6 +555,7 @@ height: 150px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
   rgba(0, 0, 0, 0.22) 0px 10px 10px;
   margin-top: 20px;
+  border-radius: 10px;
 }
 .manufactur_name{
   font-size: 12px;
@@ -652,7 +656,7 @@ height: 150px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-
+  border-radius: 10px;
   height: 600px;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
@@ -726,7 +730,7 @@ margin-top: 30px;
  width: 100%;
 
 margin-top: 30px;
-
+border-radius: 10px;
  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
  rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -740,7 +744,7 @@ margin-top: 30px;
   justify-content: space-between;
 }
 .embedLeft{
-
+  border-radius: 10px;
   display: flex;
   flex: 50%;
   padding: 20px;
@@ -759,6 +763,7 @@ margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
  rgba(0, 0, 0, 0.22) 0px 10px 10px;
   position: relative;
+  border-radius: 10px;
 }
 .embedurl{
   width: 250px;

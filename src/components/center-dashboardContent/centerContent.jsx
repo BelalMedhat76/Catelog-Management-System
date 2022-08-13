@@ -17,6 +17,7 @@ import dashChart from "../../assets/dashChart.png";
 import Product from "../dashboard-RecentProduct/RecentProduct";
 import dashboardCards from "../../data";
 import Product2 from "../dashboard-RecentProduct/RecentProduct2";
+import productFilterData from "../../ProductFilter";
 const CenterDashboard = () => {
   return (
     <>
@@ -129,7 +130,7 @@ const CenterDashboard = () => {
       </section>
       <section className="recent_product">
         <div className="recent_product_cards">
-          <Product details={dashboardCards} />
+          <Product details={productFilterData} />
         </div>
         <div className="recent_product_cards">
           <Product2 details={RecentProduct} />

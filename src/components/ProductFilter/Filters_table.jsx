@@ -1,11 +1,10 @@
 import React from "react";
-import "./RecentProduct.css";
-
-import { BsFillStarFill, BsThreeDots } from "react-icons/bs";
+import "./Filter.css";
 import { AiFillStar } from "react-icons/ai";
-const Product = (props) => {
+import { BsThreeDots } from "react-icons/bs";
+const FiltersData = (props) => {
   return (
-    <div className="Product_section">
+    <>
       {props.details.map((value, index) => (
         <div className="filter_table_data" key={index}>
           <table>
@@ -34,12 +33,7 @@ const Product = (props) => {
           </table>
         </div>
       ))}
-      <div className="product_btn">
-        <button className="AllProduct_Btn">
-          <a href="#"> View All Products</a>
-        </button>
-      </div>
-    </div>
+    </>
   );
 };
-export default Product;
+export default FiltersData;
