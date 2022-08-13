@@ -1,11 +1,11 @@
 import React from "react";
-import "./customer_Pending";
+import "./GeneralInfo.css";
 import { Component } from "react";
 import { FiSearch } from "react-icons/fi";
 import { RiAlarmWarningLine } from "react-icons/ri";
 import Profile from "../ProfileMenu/profile";
 
-class TopPindingHead extends Component {
+class TopAddProduct extends Component {
   state = {};
   render() {
     return (
@@ -13,9 +13,9 @@ class TopPindingHead extends Component {
         <div className="searchLine2">
           <ul>
             <li style={{ fontSize: "20px", fontWeight: "bold" }}>
-              Manage Products
+              Add Product
             </li>
-            <li>Products/ManageProducts</li>
+            <li>Products/AddProduct</li>
           </ul>
           <div className="SearchBar2">
             <FiSearch /> Search For ...
@@ -30,4 +30,4 @@ class TopPindingHead extends Component {
   }
 }
 
-export default TopPindingHead;
+export default TopAddProduct;

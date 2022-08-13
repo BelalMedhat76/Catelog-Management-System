@@ -1,0 +1,99 @@
+.Orders{
+display: flex;
+position: absolute;
+top: 20px;
+right: 20px;
+padding-left:20px;
+width: 80%;
+flex-direction: column;
+
+}
+
+.orderhistory{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+ 
+    margin-left: 40px;
+    padding: 10px  20px 10px 20px;
+}
+.orderhistory p{
+    font-size: 17px;
+}
+.excel_btn{
+
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.orderBtns{
+    margin-left: 30px;
+    padding: 10px  20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  
+}
+.orderBtns div{
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    justify-content: space-between;
+    background-color:lightblue;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.AllOrdersBtn{
+    margin-left: 30px;
+    padding: 10px  20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   width: 80%;
+    justify-content: space-between;
+   
+}
+.AllOrdersBtn div     {
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    justify-content: space-between;
+        margin: 10px;
+        border-radius: 10px;
+        height: 50px;
+        width: fit-content;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color:lightblue;
+       }
+.Orders_Data{
+    margin-left: 30px;
+    padding: 10px  20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+}
+.Orders_Data table{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.Orders_Data table td{
+    padding: 10px;
+    text-align: center;
+}

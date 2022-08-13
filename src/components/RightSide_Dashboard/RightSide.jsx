@@ -8,8 +8,15 @@ import { RiStarSFill } from "react-icons/ri";
 import profilePic from "../../assets/profilePic.jpg";
 import Profile from "../ProfileMenu/profile";
 import "./RightSide.css";
+import { useNavigate } from "react-router-dom";
 
 const RightBar = () => {
+  const navigate = useNavigate();
+
+  const navigateToAddProduct = () => {
+    // 👇️ navigate to /contacts
+    navigate("/add");
+  };
   const ProgressbarStyle = {
     height: "2",
     width: "20px",
@@ -18,7 +25,9 @@ const RightBar = () => {
   return (
     <>
       <Profile />
-      <button className="AddProducts_btn">Add Product</button>
+      <button className="AddProducts_btn" onClick={navigateToAddProduct}>
+        Add Product
+      </button>
       <div className="RightSideCardinfo">
         <div className="RightSidecard1">
           <div className="Rightcard-line1">
@@ -56,7 +65,7 @@ const RightBar = () => {
           <li>Supply</li>
         </ol>
         <p style={{ textAlign: "center", color: "#13678A" }}>
-          <a href="3"> View All Categories</a>
+          <a href="#"> View All Categories</a>
         </p>
       </div>
       <div className="latestProduct">

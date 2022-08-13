@@ -33,7 +33,7 @@ const Navbar = () => {
           Orders
         </span>
       </Link>
-      <Link to="/review">
+      <Link to="/reviews">
         {" "}
         <span>
           <TiGroup className="icon" /> Customer Reviews

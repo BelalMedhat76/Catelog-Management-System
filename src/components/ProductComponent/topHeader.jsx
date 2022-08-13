@@ -1,4 +1,5 @@
 import React from "react";
+import "./ProductHome.css";
 import Profile from "../ProfileMenu/profile";
 import { Component } from "react";
 import { FiSearch } from "react-icons/fi";

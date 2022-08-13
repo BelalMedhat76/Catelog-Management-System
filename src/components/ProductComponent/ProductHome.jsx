@@ -1,24 +1,27 @@
 import React from "react";
 import "./ProductHome.css";
 import MyProduct from "../../MyProduct_data";
-import Navbar from "../LeftNav/NAV";
 import TopHead from "./topHeader";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import Product from "../dashboard-RecentProduct/RecentProduct";
-import RecentProduct from "../../data";
-import profilePic from "../../assets/profilePic.jpg";
-import { BiDotsHorizontal } from "react-icons/bi";
-import AllProducts from "./AllProduct";
 import AllClientProduct from "./AllProduct";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const ProductPage = () => {
+  const navigate = useNavigate();
+  const navigateToAddProduct = () => {
+    navigate("/add");
+  };
+  const navigateToReviewProduct = () => {
+    navigate("/review");
+  };
   return (
     <div className="Prduct-container">
-      <div className="Product_Left_Nav">{/* <Navbar /> */}</div>
+      <div className="Product_Left_Nav"></div>
       <div className="Product-Right-side">
         <TopHead />
 
-        <button className="Products-Btn">
-          <a href="#">Add Product</a>
+        <button className="Products-Btn" onClick={navigateToAddProduct}>
+          <Link to="/add">Add Product</Link>
         </button>
 
         <div className="Product_Nav">
@@ -32,7 +35,11 @@ const ProductPage = () => {
             </a>
           </span>
           <span>
-            <a href="#" className="product_link">
+            <a
+              href="#"
+              className="product_link"
+              onClick={navigateToReviewProduct}
+            >
               Pending
             </a>
           </span>
@@ -47,8 +54,6 @@ const ProductPage = () => {
               <AiOutlineArrowLeft size={"20px"} style={{ marginLeft: "5px" }} />
             </a>
           </span>
-
-          {/* <Product details={RecentProduct} /> */}
         </div>
         <AllClientProduct details={MyProduct} />
       </div>

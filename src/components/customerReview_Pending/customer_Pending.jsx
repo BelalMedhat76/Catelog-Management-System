@@ -11,7 +11,7 @@ import TopPindingHead from "./TopHeadofPendingPage";
 const CustomerReviewPage = () => {
   return (
     <div className="Prduct-container">
-      <div className="Product_Left_Nav">{/* <Navbar /> */}</div>
+      <div className="Product_Left_Nav"></div>
       <div className="customer-Right-side">
         <TopPindingHead />
 
@@ -49,8 +49,6 @@ const CustomerReviewPage = () => {
               <AiOutlineArrowLeft size={"20px"} style={{ marginLeft: "5px" }} />
             </a>
           </span>
-
-          {/* <Product details={RecentProduct} /> */}
         </div>
         <Pending details={PendingData} />
       </div>
