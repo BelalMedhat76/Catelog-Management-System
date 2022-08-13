@@ -11,6 +11,7 @@ import GeneralProduct from "./components/AddProducts/General_Info";
 import SpecificInfo from "./components/AddProducts/Specific_Info";
 import ProductOrders from "./components/Orders/Orders.jsx";
 import ProductFilter from "./components/ProductFilter/Filter";
+import SortBy from "./components/Sort/Sort";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/specific" element={<SpecificInfo />} />
           <Route path="/orders" element={<ProductOrders />} />
           <Route path="/filter" element={<ProductFilter />} />
+          <Route path="/sort" element={<SortBy />} />
         </Routes>
       </BrowserRouter>
     </div>

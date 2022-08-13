@@ -5,10 +5,20 @@ import Pending from "../customerReview_Pending/PendingPage";
 
 import TopHead from "../ProductComponent/topHeader";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import TopPindingHead from "./TopHeadofPendingPage";
 
 const CustomerReviewPage = () => {
+  const navigate = useNavigate();
+  const navigateToSortBy = () => {
+    navigate("/sort");
+  };
+  const navigateToFilter = () => {
+    navigate("/filter");
+  };
+  const navigateToReviewProduct = () => {
+    navigate("/review");
+  };
   return (
     <div className="Prduct-container">
       <div className="Product_Left_Nav"></div>
@@ -19,9 +29,13 @@ const CustomerReviewPage = () => {
 
         <div className="Product_Nav">
           <span>
-            <Link to="/productsback" className="product_link">
+            <a
+              href="#"
+              className="product_link"
+              onClick={navigateToReviewProduct}
+            >
               All
-            </Link>
+            </a>
           </span>
           <span>
             <a
@@ -33,18 +47,22 @@ const CustomerReviewPage = () => {
             </a>
           </span>
           <span>
-            <a href="#" className="product_link">
+            <a
+              href="#"
+              className="product_link"
+              onClick={navigateToReviewProduct}
+            >
               Published
             </a>
           </span>
           <span className="link_shadow ">
-            <a href="#">
+            <a href="#" onClick={navigateToSortBy}>
               Sort By{" "}
               <AiOutlineArrowLeft size={"20px"} style={{ marginLeft: "5px" }} />
             </a>
           </span>
           <span className="link_shadow ">
-            <a href="#">
+            <a href="#" onClick={navigateToFilter}>
               Filters{" "}
               <AiOutlineArrowLeft size={"20px"} style={{ marginLeft: "5px" }} />
             </a>

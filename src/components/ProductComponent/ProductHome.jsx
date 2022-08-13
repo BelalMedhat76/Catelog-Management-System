@@ -33,6 +33,7 @@ const ProductPage = () => {
               href="#"
               className="product_link"
               style={{ backgroundColor: "#154666" }}
+              onClick={navigateToReviewProduct}
             >
               All
             </a>
