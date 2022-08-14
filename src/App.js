@@ -25,6 +25,7 @@ function App() {
           <Route path="/reviews" element={<CustomerReviewPage />} />
           <Route path="/generalproduct" element={<GeneralProduct />} />
           <Route path="/add" element={<GeneralProduct />} />
+          <Route path="/allproduct" element={<ProductPage />} />
           <Route path="/specific" element={<SpecificInfo />} />
           <Route path="/orders" element={<ProductOrders />} />
           <Route path="/filter" element={<ProductFilter />} />

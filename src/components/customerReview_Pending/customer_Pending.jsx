@@ -17,7 +17,7 @@ const CustomerReviewPage = () => {
     navigate("/filter");
   };
   const navigateToReviewProduct = () => {
-    navigate("/review");
+    navigate("/allproduct");
   };
   return (
     <div className="Prduct-container">

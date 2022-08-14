@@ -17,6 +17,9 @@ const ProductPage = () => {
   const navigateToFilter = () => {
     navigate("/filter");
   };
+  const navigateToAllProduct = () => {
+    navigate("/allproduct");
+  };
   return (
     <div className="Prduct-container">
       <div className="Product_Left_Nav"></div>
@@ -33,7 +36,7 @@ const ProductPage = () => {
               href="#"
               className="product_link"
               style={{ backgroundColor: "#154666" }}
-              onClick={navigateToReviewProduct}
+              onClick={navigateToAllProduct}
             >
               All
             </a>
@@ -48,7 +51,11 @@ const ProductPage = () => {
             </a>
           </span>
           <span>
-            <a href="#" className="product_link">
+            <a
+              href="#"
+              className="product_link"
+              onClick={navigateToReviewProduct}
+            >
               Published
             </a>
           </span>

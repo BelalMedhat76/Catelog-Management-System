@@ -5,7 +5,18 @@ import TopPindingHead from "../customerReview_Pending/TopHeadofPendingPage";
 import "./Sort.css";
 import Sort_Products from "../../Sortby";
 import SortTableData from "./Sort_Table";
+import { useNavigate } from "react-router-dom";
 const SortBy = () => {
+  const navigate = useNavigate();
+  const navigateToAllProduct = () => {
+    navigate("/allproduct");
+  };
+  const navigateToReviewProduct = () => {
+    navigate("/review");
+  };
+  const navigateToFilter = () => {
+    navigate("/filter");
+  };
   return (
     <div className="Sort">
       <TopPindingHead />
@@ -40,7 +51,11 @@ const SortBy = () => {
         <div className="sort_right">
           <div className="Product_Nav">
             <span>
-              <a href="/productsback" className="product_link">
+              <a
+                href="#"
+                className="product_link"
+                onClick={navigateToAllProduct}
+              >
                 All
               </a>
             </span>
@@ -49,6 +64,7 @@ const SortBy = () => {
                 href="#"
                 className="product_link active"
                 style={{ color: "#ffffff" }}
+                onClick={navigateToReviewProduct}
               >
                 Pending
               </a>
@@ -68,7 +84,7 @@ const SortBy = () => {
               </a>
             </span>
             <span className="link_shadow ">
-              <a href="#">
+              <a href="#" onClick={navigateToFilter}>
                 Filters{" "}
                 <AiOutlineArrowLeft
                   size={"20px"}

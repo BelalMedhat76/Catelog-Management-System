@@ -13,8 +13,15 @@ const ProductFilter = () => {
   const navigateToAddProduct = () => {
     navigate("/add");
   };
+
+  const navigateToAllProduct = () => {
+    navigate("/allproduct");
+  };
   const navigateToReviewProduct = () => {
     navigate("/review");
+  };
+  const navigateToFilter = () => {
+    navigate("/filter");
   };
 
   return (
@@ -211,7 +218,8 @@ const ProductFilter = () => {
           <div className="Product_Nav">
             <span>
               <a
-                href="/productsback"
+                href="#"
+                onClick={navigateToAllProduct}
                 style={{ color: "white" }}
                 className="product_link active"
               >
@@ -229,13 +237,17 @@ const ProductFilter = () => {
               </a>
             </span>
             <span>
-              <a href="#" className="product_link">
+              <a
+                href="#"
+                className="product_link"
+                onClick={navigateToReviewProduct}
+              >
                 Published
               </a>
             </span>
 
             <span className="link_shadow ">
-              <a href="#">
+              <a href="#" onClick={navigateToFilter}>
                 Filters{" "}
                 <AiOutlineArrowRight
                   size={"20px"}
